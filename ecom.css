@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.navbar-brand {
+    border: 3px solid;
+    border-radius: 5px;
+    text-align: center;
+    width: 110px;
+    height: 45px;
+    box-shadow: 2px 2px 0 0;
+}
+
+.span-1 {
+    color: red;
+    font-family: Consolas;
+    font-weight: bold;
+    background-color: black;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.span-2 {
+    color: black;
+    font-family: Consolas;
+    font-weight: 600;
+    background-color: red;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.navbar-nav {
+    text-align: center;
+}
+
+.nav-link:hover {
+    color: red !important;
+}
+
+.summer-image {
+    width: 100%;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.summer-image:hover {
+    transform: translateY(-8px);
+}
+
+.footer {
+    background-color: grey;
+    padding: 20px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+h6 {
+    padding-left: 37px;
+    color: #fff;
+}
+
+.carousel-item img {
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.carousel-item img:hover {
+    transform: translateY(-8px);
+}
+
+h3 {
+    font-size: 15px;
+    padding-top: 5px;
+    font-family: poppins;
+    text-align: center;
+}
+
+p {
+    font-size: 15px;
+    font-family: Roboto;
+    text-align: center;
+    font-weight: bold;
+}
